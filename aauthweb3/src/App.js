@@ -88,7 +88,7 @@ function App() {
   <input placeholder="Name" onChange={e => setName(e.target.value)} />
   <input placeholder="Profile Image" onChange={e => setImage(e.target.value)} />
   <button onClick={updateProfile}>Set Profile</button>
-    <button onClick={readProfile}>Log in / Set profile</button>
+    <button onClick={readProfile}>Log in</button>
     { name && <h3>{name}</h3> }
       { image && <img style={{ width: '400px' }} src={image} /> }
     </div>
